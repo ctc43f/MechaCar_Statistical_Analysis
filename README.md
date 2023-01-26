@@ -14,4 +14,14 @@ Using linear regression and treating all variables other than the MPG as indepen
 
 ## Summary Statistics on Suspension Coils
 
+Below are the table results from the summary statistics for the suspension coils, considering both the entire set of coils and also by-lot:
+
+**Overall Coil Summary**
+
+![Overall Coil Summary](/Resources/total_summary.png)
+
+**By-Lot Coil Summary**
+
+![By-Lot Coil Summary](/Resources/lot_summary.png)
+
 ## T-Tests on Suspension Coils
