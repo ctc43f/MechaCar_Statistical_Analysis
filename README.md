@@ -48,3 +48,11 @@ Below are the t-test results for all coils and for each individual lot:
 
 This implies that when considering the entire population, and when considering boths Lots 1 and 2, the p-value exceeding 0.05 implies the average PSI for those coils is 1,500.  The p-value for the Lot 3 is less than 0.05, which implies the average PSI for that Lot is not 1,500.
 
+## Study Design: MechaCar vs. Competition
+
+**Statistical Study**
+Customers often make a decision based on the purchase price of the vehicle but don't consider the maintenance and repair costs over the life of a vehicle.  MechaCar might cost more upfront but have longer lasting parts or cheaper replacement parts.  The build of the vehicle might be such that self-repair is more feasible or auto shops spend less time working on it or messing with propreitary parts.  MechaCar might want to tell consumers that their vehicles are X% lower than the competition.
+
+**Data and Methodology**
+In this case lets assume that MechaCar will focus on a single model (example: Mustang) or a line of similar models (example: sedans) for its comparison.  They would then identify their competitor's most similar vehicle or what they feel is the biggest competition to the model/line they chose.  
+1. Collect data on how much repairs cost for the two vehicles.  There are multiple sources they could consider: contact nationwide repair shops and request data for how often those vehicles are brought in and how much they cost, contact OEM parts manufacturers to get retail price for common broken parts and how much they produce each year, coordinate with insurance companies to get claims details for when the vehicles are in wrecks and bills to repair.  Ultimately get a data set of vehicle, date of repair, total bill, and maybe some other details about standard/nonstandard repair, geographic location, etc.  There might also be a need to adjust costs based on cost of living by region and adjust the dollar values to some common baseline.
