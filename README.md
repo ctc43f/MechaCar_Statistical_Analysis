@@ -24,4 +24,24 @@ Below are the table results from the summary statistics for the suspension coils
 
 ![By-Lot Coil Summary](/Resources/lot_summary.png)
 
+When considering the deisgn specification for the coils that dictates no more than 100 PSI variance, at first it appears that the coils are in compliance.  The variance in the first table is 62.3 PSI.  However, when we look at variance at the lot level, it is apparent that Lot 3's 170 PSI variance exceeds the specification and should likely be rejected from being used in manufacturing.
+
 ## T-Tests on Suspension Coils
+
+Below are the t-test results for all coils and for each individual lot:
+
+**Overall Coil T-Test**
+
+![Overall T-Test](/Resources/t_test_all.png)
+
+**Lot 1 T-Test**
+
+![Lot 1 T-Test](/Resources/t_test_lot1.png)
+
+**Lot 2 T-Test**
+
+![Lot 2 T-Test](/Resources/t_test_lot2.png)
+
+**Lot 3 T-Test**
+
+![Lot 3 T-Test](/Resources/t_test_lot3.png)
