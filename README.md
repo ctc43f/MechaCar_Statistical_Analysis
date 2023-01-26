@@ -45,3 +45,6 @@ Below are the t-test results for all coils and for each individual lot:
 **Lot 3 T-Test**
 
 ![Lot 3 T-Test](/Resources/t_test_lot3.png)
+
+This implies that when considering the entire population, and when considering boths Lots 1 and 2, the p-value exceeding 0.05 implies the average PSI for those coils is 1,500.  The p-value for the Lot 3 is less than 0.05, which implies the average PSI for that Lot is not 1,500.
+
